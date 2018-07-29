@@ -1,0 +1,25 @@
+.searchcomponent {
+  background-color: #147abc;
+  height: 75px;
+}
+.container {
+  width: 660px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+.search-dropdown select {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-box input {
+  height: 20px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px;
+}
