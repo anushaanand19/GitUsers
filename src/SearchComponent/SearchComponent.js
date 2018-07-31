@@ -14,7 +14,11 @@ class SearchComponent extends Component {
             </select>
           </div>
           <div className="search-box">
-            <input type="text" placeholder="Search here" />
+            <input
+              type="text"
+              placeholder="Search here"
+              onChange={this.props.searchdata}
+            />
           </div>
         </div>
       </div>

@@ -6,12 +6,12 @@ class ListItem extends Component {
     return (
       <div className="list-item">
         <div className="avatar">
-          <img src="http://placehold.it/100" alt="Test" />
+          <img src={`http://robohash.org/${this.props.user.id}`} alt="Test" />
         </div>
         <div className="user-details">
-          <div className="name">Name</div>
-          <div className="url">URL</div>
-          <div className="data-one">DataOne</div>
+          <div className="name">{this.props.user.id}</div>
+          <div className="url">{this.props.user.title}</div>
+          <div className="data-one">{this.props.user.body}</div>
           <div className="data-two">DataTwo</div>
         </div>
         <button className="details-btn">Details</button>
